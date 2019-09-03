@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.Edit{
+	position:absolute;
+}
+/* 下面是不同的样式-大中个头 */
+
+/*类型*/
+.Edit_style1 {
+	border: 1px solid #99bce8;
+	font-size: 12px;
+	line-height: 18px;
+	color: #333;
+	text-align: left;
+	padding:2px;
+}
+.Edit_style1_s {
+	border: 1px solid #8db3e3;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333;
+	text-align: left;
+	padding:4px;
+}
+.Edit_style2{
+	border:none;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666;
+	text-align: left;
+	padding:2px;
+	background-color:#f0f9ff;
+}
+.Edit_style3{
+	font-size: 12px;
+	line-height: 18px;
+	color: #666;
+	text-align: left;
+	padding:0px 1px 2px 1px;
+	border:none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #8db3e3;
+}
+.Edit_style4{
+	border: 1px solid #8db3e3;
+	font-size: 12px;
+	line-height: 18px;
+	color: #333;
+	text-align: left;
+	padding:2px;
+}

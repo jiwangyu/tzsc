@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* 块定义---------------------------------------------------------------------------------------------------------- */
+.Panelbar{
+	position: absolute;overflow:hidden;
+}
+.PanelBarCaption{
+	position:absolute;
+	left:-1px;
+	top:-1px;
+	font-weight:bold;
+	font-size:12px;
+	line-height:21px;
+	padding:3px;
+	color:#04408c
+}
+.PanelContent{
+	position:relative;
+	margin:0px;
+}
+.PanelBarCaptionbox span{display:block; float:left; margin-right:5px;}
+.PanelBarCaptionbox{ position:relative}
+.j_morelink a{ position:absolute; right:0px; font-size:12px;padding:6px;color:#356}
+.j_morelink a:hover{color:#3af;}
+.PanelContent p{margin-top:0px;}
+/* 以上部分是公共引用区域，下面部分是根据config.xml引用----------------------------------------------------------------- */
+/* 可变色的caption*/
+.Panelbar_Chover:hover .PanelBarCaption{ 
+box-shadow: 0px 0px 3px  #fff inset;
+color:#000}
+/* 下面是不同的样式-大中个头 */
+.Panelbar_TT12 .PanelBarCaption{ font-size:12px; padding-left:3px;border-top-color: #f3f7fb;}
+.Panelbar_TT14 .PanelBarCaption{ font-size:12px; padding-left:3px;}
+
+/* 下面是不同的样式-透明*/
+.Panelbar_Tr {
+	border:1px solid;
+	border-top-color: #99bce8;
+	border-right-color: #99bce8;
+	border-bottom-color: #99bce8;
+	border-left-color: #99bce8;
+}
+.Panelbar_Tr:hover{ background-color:#FFF;}
+/* 下面是不同的样式-浅灰*/
+.Panelbar_grain {
+	background-color: #fefefe;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #99bce8;
+	border-left-color: #99bce8;
+	border-right-color: #99bce8;
+	border-bottom-color: #99bce8;
+}

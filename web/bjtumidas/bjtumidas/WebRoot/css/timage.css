@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+/* 块定义---------------------------------------------------------------------------------------------------------- */
+.Timage{
+	position:absolute;
+}
+.Panel_imageconten .Timage{
+	position:relative;
+}
+.Timage_style1{
+	border:none;	
+}
+.Timage_style2{
+	border:solid 1px #999999;
+}
+.Timage_style3{border:solid 6px #ccc;
+display:table-cell; vertical-align: middle;text-align: center;}
+.Timage_style3 img{border:none;display:none; margin:auto }

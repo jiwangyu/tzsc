@@ -1,0 +1,33 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">BJTUMidas</string>
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    <string name="url_version">https://jiwangyu.cn/bjtumidas/version.json</string>
+    <string name="url_advImg">https://jiwangyu.cn/bjtumidas/advjson.json</string>
+    <string name="url_apk_download">https://jiwangyu.cn/bjtumidas/tzsc.apk</string>
+    <string name="url_login">https://jiwangyu.cn/bjtumidas/LoginServlet</string>
+    <string name="url_register">https://jiwangyu.cn/bjtumidas/RegisterServlet</string>
+    <string name="url_updatepwd">https://jiwangyu.cn/bjtumidas/UpdatePwdServlet</string>
+    <string name="url_publish_goods">https://jiwangyu.cn/bjtumidas/PublishGoodsServlet</string>
+    <string name="url_publish_requestgoods">https://jiwangyu.cn/bjtumidas/PublishRequestGoodsServlet</string>
+    <string name="url_query_goods">https://jiwangyu.cn/bjtumidas/QueryGoodsServlet</string>
+    <string name="url_query_goodsdetail">https://jiwangyu.cn/bjtumidas/GetGoodsDetailServlet</string>
+    <string name="url_upload_img">https://jiwangyu.cn/bjtumidas/UpLoadImgServlet</string>
+    <string name="url_send_comment">https://jiwangyu.cn/bjtumidas/CommentServlet</string>
+    <string name="url_browcount_add">https://jiwangyu.cn/bjtumidas/BrowCountServlet</string>
+    <string name="url_offer">https://jiwangyu.cn/bjtumidas/OfferServlet</string>
+    <string name="url_manage_goods">https://jiwangyu.cn/bjtumidas/ManagePersonalGoodsServlet</string>
+    <string name="url_get_Userinfo">https://jiwangyu.cn/bjtumidas/UsersInfoServlet</string>
+
+</resources>

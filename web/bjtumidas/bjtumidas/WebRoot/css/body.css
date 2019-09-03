@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+}
+/* 下面是不同的样式-大中个头 */
+
+/*类型*/
+.body_style1,.body_style1 a {
+	font-family:"微软雅黑", "宋体";
+	color:#111;
+}
+.body_style2,.body_style2 a {
+	font-family:"宋体";
+	color:#333;
+}
+.body_style3,.body_style3 a {
+	font-family:"宋体";
+	color:#333;
+	height:400px;
+	background-position:left top ;
+	background-size:cover;
+}
+a:hover{color:#69a}

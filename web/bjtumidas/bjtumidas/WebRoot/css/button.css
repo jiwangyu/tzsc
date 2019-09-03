@@ -1,0 +1,149 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.vjbutton{
+	cursor:pointer;
+	position:absolute;	
+	text-align: center;
+    display:table;
+}
+.vjbutton_txtR{
+	display:table-cell;
+	vertical-align:middle
+}
+/* 下面是不同的样式-大中个头 */
+.vjbutton_m{
+	font-size: 12px;	
+	padding:2px;
+	line-height:16px;
+}
+.vjbutton_b{
+	font-size: 14px;
+	padding:3px; line-height:18px;
+}
+.vjbutton_lll{
+	font-size: 16px;
+	font-weight:bold;
+	padding:25px 3px 5px 3px;
+}
+/*类型*/
+.vjbutton_c_style1{
+	color:#000033;
+	background-color: #cbddf3;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dae7f6), color-stop(45%, #cddef3), color-stop(46%, #abc7ec), color-stop(50%, #abc7ec), color-stop(51%, #b8cfee), color-stop(100%, #cbddf3));
+background-image: -webkit-linear-gradient(top, #dae7f6, #cddef3 45%, #abc7ec 46%, #abc7ec 50%, #b8cfee 51%, #cbddf3);
+background-image: -moz-linear-gradient(top, #dae7f6, #cddef3 45%, #abc7ec 46%, #abc7ec 50%, #b8cfee 51%, #cbddf3);
+background-image: -o-linear-gradient(top, #dae7f6, #cddef3 45%, #abc7ec 46%, #abc7ec 50%, #b8cfee 51%, #cbddf3);
+background-image: linear-gradient(top, #dae7f6, #cddef3 45%, #abc7ec 46%, #abc7ec 50%, #b8cfee 51%, #cbddf3);
+	border:#3399aa 1px solid;
+}
+.vjbutton_c_style1:hover{background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.95, rgb(110,150,180)),
+	color-stop(0.51, rgb(160,200,220)),
+	color-stop(0.50, rgb(180,220,240)),
+	color-stop(0.05, rgb(220,230,250))
+	);
+	border:#006699 1px solid;}
+	
+.vjbutton_c_style2{
+	color:#669;margin:1px;
+}
+.vjbutton_c_style2:hover{color:#fff;background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.95, rgb(200,210,235)),
+	color-stop(0.05, rgb(220,240,255))
+	);
+	color:#003;
+	margin:0px;
+	border:#006699 1px solid;}
+.vjbutton_c_style3{
+	color:#900;border:#966 1px solid;
+}
+.vjbutton_c_style3:hover{border:#900 1px solid;color:#600;}
+.vjbutton_c_style4:hover{border:#b0ccf2 1px solid;
+	background-color:#e4f3ff;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#e4f3ff),color-stop(48%,#d9edff),color-stop(52%,#c2d8f2),color-stop(100%,#c6dcf6));background-image:-webkit-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:-moz-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:-o-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:-ms-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6)}
+	.vjbutton_c_style4:focus{border-color:#b0ccf2;background-image:none;background-color:#e4f3ff;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#e4f3ff),color-stop(48%,#d9edff),color-stop(52%,#c2d8f2),color-stop(100%,#c6dcf6));background-image:-webkit-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:-moz-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:-o-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:-ms-linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6);background-image:linear-gradient(top,#e4f3ff,#d9edff 48%,#c2d8f2 52%,#c6dcf6)
+	border:#006699 1px solid;}
+.vjbutton_c_style4{
+	color:#000033;	
+	background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#fff),color-stop(48%,#f9f9f9),color-stop(52%,#e2e2e2),color-stop(100%,#e7e7e7));/* background-image:-webkit-linear-gradient(top,#fff,#f9f9f9 48%,#e2e2e2 52%,#e7e7e7); */
+	background-image:-moz-linear-gradient(top,#fff,#f9f9f9 48%,#e2e2e2 52%,#e7e7e7);
+	background-image:-o-linear-gradient(top,#fff,#f9f9f9 48%,#e2e2e2 52%,#e7e7e7);
+	background-image:-ms-linear-gradient(top,#fff,#f9f9f9 48%,#e2e2e2 52%,#e7e7e7);
+	background-image:linear-gradient(top,#fff,#f9f9f9 48%,#e2e2e2 52%,#e7e7e7);
+	border:1px solid #d1d1d1;	
+}
+/*按钮图标*/
+.vjbutton .btnicon{
+	background-image: url(../images/btn_icon1.png);
+	background-repeat: no-repeat;
+	height: 16px;
+	cursor:pointer;
+	width: 16px;
+	position:absolute;
+}
+.vjbutton:hover .btnicon{
+	background-image: url(../images/btn_icon2.png);
+	background-repeat: no-repeat;
+	
+	cursor:pointer;
+	width: 16px;
+}
+.btntxt{padding-left:20px;}
+/*预设图标*/
+.icon_seach{
+	background-position: -32px 0px;
+}
+.icon-lookup {
+  background-position: -80px -16px;}
+.icon-print {
+  background-position: -48px -16px;}
+.icon-save {
+  background-position: -16px -0px;}
+ .icon-edit {
+  background-position: -48px -0px;}
+   .icon-del {
+  background-position: -64px -0px;}
+   .icon-attach {
+  background-position: -80px -0px;}
+   .icon-add {
+  background-position: -96px -0px;}
+   .icon-exit {
+  background-position: -112px -0px;}
+   .icon-user {
+  background-position: -128px -0px;}
+   .icon-back {
+  background-position: -144px -0px;}
+  
+  .icon-reset {
+  background-position: -0px -16px;}
+  .icon-confirm {
+  background-position: -0px -32px;}
+  .icon-cancel {
+  background-position: -0px -48px;}
+  
+.vjbutton .btniconcum1{
+	height: 16px;
+	width:16px;
+	position:absolute;
+	display:block;
+	margin-left:2px;
+}
+.vjbutton .btniconcum2{
+	display:none;
+}
+.vjbutton:hover .btniconcum1{
+	display:none;
+}
+.vjbutton:hover .btniconcum2{
+	height: 16px;
+	width:16px;
+	position:absolute;
+	display:block;
+	margin-left:2px;
+}
+.vjbutton:active{border-color:#9ebae1;background-image:none;background-color:#b6cbe4;background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#b6cbe4),color-stop(48%,#bfd2e6),color-stop(52%,#8dc0f5),color-stop(100%,#98c5f5));background-image:-webkit-linear-gradient(top,#b6cbe4,#bfd2e6 48%,#8dc0f5 52%,#98c5f5);background-image:-moz-linear-gradient(top,#b6cbe4,#bfd2e6 48%,#8dc0f5 52%,#98c5f5);background-image:-o-linear-gradient(top,#b6cbe4,#bfd2e6 48%,#8dc0f5 52%,#98c5f5);background-image:-ms-linear-gradient(top,#b6cbe4,#bfd2e6 48%,#8dc0f5 52%,#98c5f5);background-image:linear-gradient(top,#b6cbe4,#bfd2e6 48%,#8dc0f5 52%,#98c5f5)}

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name></display-name>
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.RegisterServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdatePwdServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.UpdatePwdServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PublishGoodsServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.PublishGoodsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>PublishRequestGoodsServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.PublishRequestGoodsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>QueryGoodsServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.QueryGoodsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetGoodsDetailServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.GetGoodsDetailServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpLoadImgServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.UpLoadImgServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UsersInfoServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.UsersInfoServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CommentServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.CommentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BrowCountServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.BrowCountServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>OfferServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.OfferServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ManagePersonalGoodsServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.ManagePersonalGoodsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UsersServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.UsersServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MGoodsServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.MGoodsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MCommentServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.MCommentServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MGoodsTypeServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.MGoodsTypeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChartServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.ChartServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>VersionServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.VersionServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ModifyAdminPwdServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.ModifyAdminPwdServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<servlet-class>com.jwy.bjtumidas.action.admin.AdminLoginServlet</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdatePwdServlet</servlet-name>
+		<url-pattern>/UpdatePwdServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PublishGoodsServlet</servlet-name>
+		<url-pattern>/PublishGoodsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PublishRequestGoodsServlet</servlet-name>
+		<url-pattern>/PublishRequestGoodsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>QueryGoodsServlet</servlet-name>
+		<url-pattern>/QueryGoodsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetGoodsDetailServlet</servlet-name>
+		<url-pattern>/GetGoodsDetailServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpLoadImgServlet</servlet-name>
+		<url-pattern>/UpLoadImgServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UsersInfoServlet</servlet-name>
+		<url-pattern>/UsersInfoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CommentServlet</servlet-name>
+		<url-pattern>/CommentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BrowCountServlet</servlet-name>
+		<url-pattern>/BrowCountServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OfferServlet</servlet-name>
+		<url-pattern>/OfferServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManagePersonalGoodsServlet</servlet-name>
+		<url-pattern>/ManagePersonalGoodsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UsersServlet</servlet-name>
+		<url-pattern>/admin/UsersServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MGoodsServlet</servlet-name>
+		<url-pattern>/admin/MGoodsServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MCommentServlet</servlet-name>
+		<url-pattern>/admin/MCommentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MGoodsTypeServlet</servlet-name>
+		<url-pattern>/admin/MGoodsTypeServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChartServlet</servlet-name>
+		<url-pattern>/admin/ChartServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>VersionServlet</servlet-name>
+		<url-pattern>/admin/VersionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ModifyAdminPwdServlet</servlet-name>
+		<url-pattern>/admin/ModifyAdminPwdServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<url-pattern>/AdminLoginServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

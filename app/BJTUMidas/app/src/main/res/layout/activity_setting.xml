@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sttings="http://schemas.android.com/apk/com.jwy.bjtumidas"
+    xmlns:toptb="http://schemas.android.com/apk/com.jwy.bjtumidas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jwy.bjtumidas.customize.TopBackAndTitleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        toptb:text="设置" />
+
+    <com.jwy.bjtumidas.customize.SettingItem
+        android:id="@+id/si_setting_autoupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sttings:Title="自动更新设置"
+        sttings:desc_off="自动更新设置已关闭"
+        sttings:desc_on="自动更新设置已开启" />
+
+</LinearLayout>

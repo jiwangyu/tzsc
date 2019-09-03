@@ -1,0 +1,191 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:scrollbars="none">
+
+        <com.jwy.bjtumidas.customize.NoscrollLinearlayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="#FFF"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginBottom="0dp">
+
+
+                <!--<android.support.v4.view.ViewPager-->
+                    <!--android:id="@+id/vp_home_header_adv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="120dp"/>-->
+                <ImageView
+                    android:id="@+id/iv_home_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/im_main_bg2"/>
+
+                <ImageView
+                    android:id="@+id/iv_home_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:src="@mipmap/home_search"
+                    android:visibility="visible"/>
+
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/ll_home_point_parent"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<View-->
+                        <!--style="@style/View_Home_Point_Style"-->
+                        <!--android:background="@drawable/shape_home_point_selected"/>-->
+
+                    <!--<View-->
+                        <!--style="@style/View_Home_Point_Style"-->
+                        <!--android:background="@drawable/shape_home_point_unselected"/>-->
+
+                    <!--<View-->
+                        <!--style="@style/View_Home_Point_Style"-->
+                        <!--android:background="@drawable/shape_guide_point_unselected"/>-->
+
+                    <!--<View-->
+                        <!--style="@style/View_Home_Point_Style"-->
+                        <!--android:background="@drawable/shape_guide_point_unselected"/>-->
+
+                    <!--<View-->
+                        <!--style="@style/View_Home_Point_Style"-->
+                        <!--android:background="@drawable/shape_guide_point_unselected"/>-->
+                <!--</LinearLayout>-->
+            </RelativeLayout>
+
+            <GridView
+                android:id="@+id/gv_home_menu"
+                android:layout_width="match_parent"
+
+                android:layout_height="70dp"
+                android:background="@mipmap/im_main_bg1"
+                android:horizontalSpacing="1dp"
+                android:numColumns="4"
+                android:paddingTop="6dp"
+                android:scrollbars="none"
+                android:verticalSpacing="5dp">
+
+            </GridView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#4000"/>
+
+            <ListView
+                android:id="@+id/lv_home_urgent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_home_urgent"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/listview_header"/>
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/popular"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="最新发布"
+                    android:textColor="#FFF"/>
+
+                <ImageView
+                    android:id="@+id/iv_newmore"
+                    android:layout_width="56dp"
+                    android:layout_height="17dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="2dp"
+                    android:src="@mipmap/index_more"/>
+
+
+            </RelativeLayout>
+            <!--最新发布的商品的商品-->
+            <GridView
+                android:id="@+id/gv_home_goods_new"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:horizontalSpacing="3dp"
+                android:numColumns="2"
+                android:verticalSpacing="3dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:background="#881170ec"/>
+            <!--拍卖的商品-->
+            <ListView
+                android:id="@+id/lv_home_pai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="#FFF"
+                android:clickable="true"
+                android:divider="@null"
+                android:padding="5dp"
+                android:visibility="gone"/>
+
+        </com.jwy.bjtumidas.customize.NoscrollLinearlayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/iv_home_fresh"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:clickable="true"
+        android:src="@mipmap/default_ptr_rotate_te"/>
+
+</RelativeLayout>
